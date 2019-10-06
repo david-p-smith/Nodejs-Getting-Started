@@ -3,4 +3,4 @@ const timerId = setTimeout(
     0
 );
 
-//clearTimeout(timerId);
+clearTimeout(timerId);
