@@ -6,3 +6,5 @@ process.stdin.on('readable', () => {
     }
 
 });
+
+process.stdin.pipe(process.stdout);
