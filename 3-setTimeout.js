@@ -10,3 +10,9 @@ const newFunc = () => {
 }
 
 setTimeout(newFunc, 4000);
+
+const rocks = who => {
+    console.log(who + ' rocks');
+};
+
+setTimeout(rocks, 2 * 1000, 'David');
