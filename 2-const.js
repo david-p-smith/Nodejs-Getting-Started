@@ -18,3 +18,11 @@ const meaningOfLife = 42;
 */
 
 console.log(meaningOfLife); //definitely still 42!
+
+let possibleMeaningOfLife = 42;
+
+/*
+    BIG PROGRAM!!
+*/
+
+console.log(possibleMeaningOfLife); //might not be 42 anymore
