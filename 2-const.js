@@ -8,3 +8,5 @@ const person = {
     firstName: 'David',
     lastName: 'Smith'
 };
+
+Object.freeze(person); //First level (i.e. no subobjects,arrays) cannot now be changed - e.g. firstName must remain as 'David'.
