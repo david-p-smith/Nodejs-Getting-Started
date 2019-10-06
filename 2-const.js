@@ -10,3 +10,11 @@ const person = {
 };
 
 Object.freeze(person); //First level (i.e. no subobjects,arrays) cannot now be changed - e.g. firstName must remain as 'David'.
+
+const meaningOfLife = 42;
+
+/*
+    BIG PROGRAM!!
+*/
+
+console.log(meaningOfLife); //definitely still 42!
