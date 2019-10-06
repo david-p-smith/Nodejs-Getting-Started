@@ -3,4 +3,9 @@ const timerId = setTimeout(
     0 //makes immidiate
 );
 
+//setImmediate
+const immidiateTimer = setImmediate(
+    () => console.log('I\'m immediate!')
+)
+
 clearTimeout(timerId);
