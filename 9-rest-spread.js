@@ -16,3 +16,7 @@ console.log(data);
 const { temp1, temp2, ...person } = data;
 
 console.log(temp1, temp2, person);
+
+//copy of array
+const newArray = [...restOfItems];
+console.log(newArray);
