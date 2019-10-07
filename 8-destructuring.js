@@ -17,3 +17,5 @@ const circle = {
 const circleArea = ({ radius }, { precision = 2 } = {}) => (PI * radius * radius).toFixed(precision);
 
 console.log(circleArea(circle));
+
+console.log(circleArea(circle, { precision: 5 }));
