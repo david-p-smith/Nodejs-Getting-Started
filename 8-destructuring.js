@@ -5,3 +5,6 @@
 const { PI, E, SQRT2 } = Math;
 
 console.log(PI, E, SQRT2);
+
+//With require
+//const { readFile } = require('fs'); //read file now available using readFile() rather than fs.readFile()
