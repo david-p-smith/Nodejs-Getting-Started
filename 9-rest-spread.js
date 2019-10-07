@@ -20,3 +20,10 @@ console.log(temp1, temp2, person);
 //copy of array
 const newArray = [...restOfItems];
 console.log(newArray);
+
+//copy of object
+const newObject = {
+    ...person
+};
+
+console.log(person);
