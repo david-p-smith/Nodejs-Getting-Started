@@ -1,3 +1,5 @@
 //these are equivalent
-const greetying = "Hello World";
+const greeting = "Hello World";
 const meaningOfLife = 'Forty Two';
+
+const html = `<div></div>`;
