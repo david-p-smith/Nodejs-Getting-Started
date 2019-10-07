@@ -19,3 +19,5 @@ const circleArea = ({ radius }, { precision = 2 } = {}) => (PI * radius * radius
 console.log(circleArea(circle));
 
 console.log(circleArea(circle, { precision: 5 }));
+
+const [first, second, , forth] = [10, 20, 30, 40];
