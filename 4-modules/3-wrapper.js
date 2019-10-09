@@ -6,4 +6,5 @@ console.log(arguments);
 
 exports.a = 42; //exports is an argument
 
+// return module.exports;
 // }
