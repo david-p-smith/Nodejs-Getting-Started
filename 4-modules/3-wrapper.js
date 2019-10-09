@@ -9,5 +9,8 @@ module.exports.b = 37; //this is part of the same structure above - forming part
 
 //exports = ... <--- this would not change module.exports - simply reassign the alias to point at the new value or object
 
+//to make exports a function
+//exports = () => {}; <--- this would not work
+
 // return module.exports;
 // } (module.exports,...)
