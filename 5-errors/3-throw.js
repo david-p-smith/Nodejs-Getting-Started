@@ -9,7 +9,7 @@ files.forEach(file => {
         const data = fs.readFileSync(filePath);
         console.log('File data is', data);
     } catch (err) {
-        if (err.code === 'EN0ENT') {
+        if (err.code === 'ENOENT') {
             console.log('File not found');
         } else {
             throw err;
