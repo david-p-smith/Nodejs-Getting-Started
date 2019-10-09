@@ -11,6 +11,7 @@ module.exports.b = 37; //this is part of the same structure above - forming part
 
 //to make exports a function
 //exports = () => {}; <--- this would not work
+module.exports = () => { }; //<--- this does work
 
 // return module.exports;
 // } (module.exports,...)
