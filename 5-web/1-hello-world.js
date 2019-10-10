@@ -1,7 +1,8 @@
 const http = require('http');
 
 const requestListener = (req, res) => {
-    res.end('Hello World.  This is David!\n');
+    res.write('Hello World.  This is David!\n');
+    res.end();
 };
 
 //const server = http.createServer(requestListener); //no ()!  This would use return value rather than function!
