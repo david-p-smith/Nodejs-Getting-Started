@@ -4,3 +4,5 @@ const EventEmitter = require('events');
 // process.stdin, process.stdout
 
 const myEmitter = new EventEmitter();
+
+myEmitter.emit('TEST_EVENT');
