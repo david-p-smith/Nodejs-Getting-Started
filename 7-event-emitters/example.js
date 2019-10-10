@@ -17,4 +17,4 @@ myEmitter.on('TEST_EVENT', () => {
     console.log('TEST_EVENT was fired');
 });
 
-const myEmitter = new EventEmitter();
+myEmitter.emit('TEST_EVENT');
