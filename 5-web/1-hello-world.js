@@ -1,6 +1,7 @@
 const http = require('http');
 
 const requestListener = (req, res) => {
+    console.log(req);
     res.write('Hello World.  This is David! Changed without manual restart!\n');
     res.end();
 };
