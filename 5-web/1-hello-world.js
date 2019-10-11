@@ -1,7 +1,7 @@
 const http = require('http');
 
 const requestListener = (req, res) => {
-    console.dir(req.url);
+    console.dir(res, { depth: 0 });
     res.write('Hello World.  This is David! Changed without manual restart!\n');
     res.end();
 };
